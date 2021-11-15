@@ -23,12 +23,12 @@
             android:id="@+id/action_twoFragment_to_firstFragment"
             app:destination="@id/firstFragment" />
         <argument
-            android:name="number"
-            app:argType="integer"
-            android:defaultValue="1" />
-        <argument
             android:name="message"
             app:argType="string"
-            android:defaultValue="NickSeven" />
+            android:defaultValue="Not Thing" />
+        <argument
+            android:name="number"
+            app:argType="integer"
+            android:defaultValue="0" />
     </fragment>
 </navigation>
